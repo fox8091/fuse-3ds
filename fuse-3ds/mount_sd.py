@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
 
+__author__    = "ihaveamac"
+__copyright__ = "Copyright (c) 2017 ihaveamac"
+__license__   = "MIT"
+__version__   = "1.0"
+
+"""
+Allows mounting of 3DS-related files using FUSE
+"""
+
 import argparse
 import ctypes
 import errno
